@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--pale-blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  margin: 20px;
+  width: 30%;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
+}
+
+.text-content {
+  padding: 7%;
+}
+
+.title {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.text-content p.subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--desaturated-blue);
+}
+
+.plan-box {
+  background-color: var(--very-pale-blue);
+  border-radius: 12px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-box-left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.plan-box-left div {
+  margin-left: 20px;
+}
+
+.plan-box-left div h5 {
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--dark-blue);
+}
+
+.plan-box-left div p {
+  font-size: 14px;
+  color: var(--desaturated-blue);
+}
+
+.plan-box a {
+  font-weight: 900;
+  color: var(--bright-blue);
+}
+
+.plan-box a:hover {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  transition: color 0.3s ease-in-out;
+}
+
+a.proceed-btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--bright-blue);
+  padding: 15px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  transition: background-color 0.3s ease;
+  filter: drop-shadow(0 20px 0.75rem hsl(225, 100%, 94%));
+}
+
+a.proceed-btn:hover {
+  background-color: var(--desaturated-blue);
+}
+
+a.cancel-btn {
+  color: var(--desaturated-blue);
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+
+a.cancel-btn:hover {
+  color: var(--dark-blue);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    font-size: 14px;
+  }
+
+  .container {
+    width: 400px;
+  }
+}
