@@ -33,9 +33,9 @@ Users should be able to:
 ### Screenshot
 
 ![desktop view change btn hover](./images/screenshot/desktop-view-change-btn-hover.png)
-![](./images/screenshot/mobile view.png)
-![](./images/screenshot/desktop view with cancel btn hover.png)
-![](./images/screenshot/desktop view with btn hover.png)
+![mobile view](./images/screenshot/mobile-view.png)
+![desktop view with cancel btn hover](./images/screenshot/desktop-view-with-cancel-btn-hover.png)
+![desktop view with btn hover](./images/screenshot/desktop-view-with-btn-hover.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
