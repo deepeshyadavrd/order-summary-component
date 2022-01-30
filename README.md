@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://codepen.io/deepeshyadav/pen/BamovLa)
-- Live Site URL: [Add live site URL here](https://deepeshyadavrd.github.io/order-summary-component/)
+- Solution URL: [Codepen solution](https://codepen.io/deepeshyadav/pen/BamovLa)
+- Live Site URL: [Github pages Live](https://deepeshyadavrd.github.io/order-summary-component/)
 
 ## My process
 
@@ -51,11 +51,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
