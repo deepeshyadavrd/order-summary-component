@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot/desktop view change btn hover.png)
+![desktop view change btn hover](./images/screenshot/desktop-view-change-btn-hover.png)
 ![](./images/screenshot/mobile view.png)
 ![](./images/screenshot/desktop view with cancel btn hover.png)
 ![](./images/screenshot/desktop view with btn hover.png)
