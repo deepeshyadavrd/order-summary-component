@@ -137,6 +137,7 @@ a.cancel-btn:hover {
   color: hsl(228, 45%, 44%);
 }
 
+/*Media Query*/
 @media only screen and (max-width: 768px) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
